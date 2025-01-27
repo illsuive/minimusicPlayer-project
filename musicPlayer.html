@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini MusicProject </title>
+    <link rel="icon" href="resource/musical-icon.png">
+    <link rel="stylesheet" href="musicPlayer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- ---------------------------------------------->
+    <div id="firstDiv">
+      <div class="inner-1">
+        <h1>Music player</h1>
+        <button id="darkMode">DARK MODE</button>
+    </div>
+    </div>
+
+    <!------------------------------------------------>
+
+    <div id="SecondDiv">
+        <div class="partOne">
+            <div class="filter">
+                    <p>Filter by Genre :</p>
+                        <select name="songs" id="songs">
+                        </select> 
+                    </div>  
+                    <div class="songLI">
+                        <h1>All Songs</h1>
+                    </div> 
+                    <ul id="myList">
+                    </ul>
+            </div>
+            <!-------------------------------------------->
+        <div class="partTwo">
+            <div class="screen">
+                <img id="musicImg" src="resource/displayimg.webp" alt="songImg">
+                <marquee> <h4><b id="titleData">Music</b></h4></marquee>
+                <span id="aritest"><b>Player</b></span>
+            </div>
+            
+
+            <!--    ================================== -->
+                <div class="audi">
+                    <audio controls id="aritestSong" >
+                        <source src="resource/zayn-song.mp3"  >
+                      </audio>
+                </div>
+                <div id="controlButton">
+                    <span id="prvButton">⏮️</span>
+                    <!-- <span id="pasusbutton">▶️</span> -->
+                    <span id="nextButton">⏭️</span>
+            </div>
+            <div id="add">
+            <button onclick="addsong()">Add to playlist</button>
+        </div>
+        </div>
+
+         <!-------------------------------------------->
+        <div class="partthree">
+            <div id="inpData">
+                <input type="text" placeholder="Enter Playlist name" id="text" autocomplete="off">
+                <button onclick="createPlaylist()">Create Playlist</button>
+            </div>
+
+        <ul id="CurrentPlaylist">
+            <li class="custom another">Current Playlist</li>
+        </ul>
+
+        <ul id="allplaylist">
+            <li class="custom">All playlists</li>
+        </ul>
+
+        </div>
+    </div>
+
+    <script src="musicPlayer.js"></script>
+</body>
+</html>

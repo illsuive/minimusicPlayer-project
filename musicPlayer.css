@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inner-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+button {
+    color: whitesmoke;
+    background-color: #bf4aa8;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+.inner-1 h1 {
+    color: #bf4aa8 ;
+}
+button:hover {
+    opacity: 0.8;
+}
+button:active{
+    box-shadow: 0px 0px 3px  #bf4aa8;
+}
+
+
+/***************************************/
+ 
+#SecondDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.partOne , .partTwo , .partthree {
+    height: 500px;
+    width: 400px;
+    background-color: #51d0de;
+    box-shadow: 0px 0px 10px  #bf4aa8;
+    border-radius: 0.6rem
+}
+.filter{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.filter p {
+    font-weight: bold;
+    color: whitesmoke;
+    font-size:1.3rem;
+}
+#songs{
+    background-color: #bf4aa8;
+    color: whitesmoke;
+    border-radius: 0.3rem;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 10px;
+}
+.songLI{
+    color: whitesmoke;
+    font-weight: bold;
+    margin: 10px;
+}
+#myList li  {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #bf4aa8;
+    border-radius: 0.4rem;
+    padding: 4px;
+    margin: 10px;
+    list-style-type: none;
+}
+
+/***********************************************/
+
+.screen{
+   background-color: #bf4aa8;
+   width: 80%;
+   margin: 10px auto;
+   border-radius: 0.4rem;
+}
+.screen img{
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+}
+.partTwo h4 b{
+    position: relative;
+    color: whitesmoke;
+    position: relative;
+    bottom: 25px;
+}
+#aritest{
+    position: relative;
+    bottom: 3rem;
+    left: 10px;
+}
+.screen span {
+    color: whitesmoke; 
+}
+.audi {
+    position: relative;
+}
+.audi audio{
+    width: 100%;
+}
+#controlButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+#controlButton span{
+    color:whitesmoke;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 2rem;
+    margin-left: 30px;
+}
+#add{
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  margin-left: 30px;
+}
+/* 8888888888888888888888888888888888888888888 */
+#inpData{
+    display: flex;
+    margin: 3px
+}
+#text{
+    padding-right: 60px;
+    font-size: large;
+    color: #bf4aa8;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    border: none;
+}
+.custom{
+    font-size: 1.3rem;
+    padding: 10px;
+    color: white;
+    list-style-type: none;
+    background-color: #bf4aa8;
+    width: 300px;
+    border-radius: 3px;
+}
+.playlist{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: whitesmoke;
+    border-radius: 0.4rem;
+    padding: 4px;
+    margin: 10px;
+    list-style-type: none;  
+    background-color: rgb(72, 72, 15); 
+    width: 300px;
+}
+
